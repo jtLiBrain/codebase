@@ -1,0 +1,32 @@
+{
+  "namespace": "pers.jasonLbase.avro.example.codec.complexRecord",
+  "type": "record",
+  "name": "Team",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "members",
+      "type": {
+        "type": "array",
+        "items": {
+          "namespace": "pers.jasonLbase.avro.example.codec.complexRecord",
+          "type": "record",
+          "name": "Member",
+          "fields": [
+            {
+              "name": "id",
+              "type": "long"
+            },
+            {
+              "name": "name",
+              "type": "string"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

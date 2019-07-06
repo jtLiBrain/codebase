@@ -1,0 +1,1 @@
+## IngestionProtocol部分将原来的公司设计到的内容去掉了

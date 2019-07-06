@@ -1,0 +1,12 @@
+{
+	"type": "array",
+	"items": {
+		"namespace": "pers.jasonLbase.avro.example.codec.array",
+		"type": "record",
+		"name": "User",
+		"fields": [
+			{"name": "id", "type": "long"},
+			{"name": "name", "type": "string"}
+		]
+	}
+}

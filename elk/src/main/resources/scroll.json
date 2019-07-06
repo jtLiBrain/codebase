@@ -1,0 +1,15 @@
+{
+  "size": 2,
+  "query": {
+    "bool": {
+      "must": [],
+      "filter": [
+        {
+          "match_all": {}
+        }
+      ],
+      "should": [],
+      "must_not": []
+    }
+  }
+}
