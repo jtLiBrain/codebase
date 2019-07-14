@@ -1,0 +1,26 @@
+<component
+	xmlns="http://maven.apache.org/ASSEMBLY-COMPONENT/2.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/ASSEMBLY-COMPONENT/2.0.0 http://maven.apache.org/xsd/assembly-component-2.0.0.xsd">
+	<fileSets>
+		<fileSet>
+			<directory>${project.basedir}/src/main/resources</directory>
+
+			<includes>
+				<include>log4j.properties</include>
+			</includes>
+
+			<outputDirectory>/</outputDirectory>
+		</fileSet>
+	</fileSets>
+
+	<dependencySets>
+		<dependencySet>
+			<includes>
+				<include>pers.jasonLbase:common</include>
+			</includes>
+
+			<outputDirectory>/</outputDirectory>
+		</dependencySet>
+	</dependencySets>
+</component>
